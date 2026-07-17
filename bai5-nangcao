@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    let n = parseInt(prompt("Nhập số lượng phần tử của mảng:"));
+    let arr = [];
+
+    for (let i = 0; i < n; i++) {
+        let num = parseInt(prompt("Nhập phần tử thứ " + (i + 1) + ":"));
+        arr.push(num);
+    }
+
+    console.log("Các số đã nhập vào mảng: " + arr);
+
+    function kiemtraSNT(num) {
+        if (num < 2) return false;
+        for (let i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i === 0) return false;
+        }
+        return true;
+    }
+
+    let tongSNT = 0;
+    console.log("Các số nguyên tố có trong mảng là:");
+    for (let i = 0; i < arr.length; i++) {
+        if (kiemtraSNT(arr[i])) {
+            console.log(arr[i]);
+            tongSNT += arr[i];
+        }
+    }
+    
+    console.log("Tổng các số nguyên tố là: " + tongSNT);
+</script>
+</body>
+</html>
