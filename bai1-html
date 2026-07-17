@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Trần Gia Hưng</title>
+</head>
+<body>
+
+    <div class="cv-container">
+        <header>
+            <img class="avatar" src="image_7cad17.png" alt="Ảnh đại diện Trần Gia Hưng">
+            <h1>Trần Gia Hưng</h1>
+            <div class="contact-info">
+                <p><strong>Số điện thoại:</strong> 0833577897</p>
+                <p><strong>Email:</strong> <a href="mailto:trangiahung04052007@gmail.com">trangiahung04052007@gmail.com</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/MaxTGH0405" target="_blank">https://github.com/MaxTGH0405</a></p>
+            </div>
+        </header>
+
+        <section>
+            <h2>Kỹ năng</h2>
+            <ul>
+                <li>C/C++</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Tiếng Anh</li>
+                <li>Tiếng Nhật</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Học vấn</h2>
+            <ul>
+                <li>Trình độ đại học</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
