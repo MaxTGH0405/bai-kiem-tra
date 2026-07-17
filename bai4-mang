@@ -2,34 +2,34 @@
 <html>
 <body>
 <script>
-    let diemLop = [7, 9, 4, 8, 6, 10, 3, 5];
+    let diemlop = [7, 9, 4, 8, 6, 10, 3, 5];
 
-    console.log("Số lượng học viên trong lớp: " + diemLop.length);
+    console.log("Số lượng học viên trong lớp: " + diemlop.length);
 
-    let tongDiem = 0;
-    for (let i = 0; i < diemLop.length; i++) {
-        tongDiem += diemLop[i];
+    let tongdiem = 0;
+    for (let i = 0; i < diemlop.length; i++) {
+        tongdiem += diemlop[i];
     }
-    let diemTrungBinh = tongDiem / diemLop.length;
-    console.log("Tổng điểm của lớp: " + tongDiem);
-    console.log("Điểm trung bình của lớp: " + diemTrungBinh);
+    let diemtrungbinh = tongdiem / diemlop.length;
+    console.log("Tổng điểm của lớp: " + tongdiem);
+    console.log("Điểm trung bình của lớp: " + diemtrungbinh);
 
-    let maxDiem = diemLop[0];
-    let minDiem = diemLop[0];
-    for (let i = 1; i < diemLop.length; i++) {
-        if (diemLop[i] > maxDiem) maxDiem = diemLop[i];
-        if (diemLop[i] < minDiem) minDiem = diemLop[i];
+    let maxdiem = diemlop[0];
+    let mindiem = diemlop[0];
+    for (let i = 1; i < diemlop.length; i++) {
+        if (diemlop[i] > maxdiem) maxdiem = diemlop[i];
+        if (diemlop[i] < mindiem) mindiem = diemlop[i];
     }
-    console.log("Điểm cao nhất: " + maxDiem);
-    console.log("Điểm thấp nhất: " + minDiem);
+    console.log("Điểm cao nhất: " + maxdiem);
+    console.log("Điểm thấp nhất: " + mindiem);
 
-    let soHocVienDat = 0;
-    for (let i = 0; i < diemLop.length; i++) {
-        if (diemLop[i] >= 5) {
-            soHocVienDat++;
+    let sohocviendat = 0;
+    for (let i = 0; i < diemlop.length; i++) {
+        if (diemlop[i] >= 5) {
+            sohocviendat++;
         }
     }
-    console.log("Số học viên đạt: " + soHocVienDat);
+    console.log("Số học viên đạt: " + sohocviendat);
 </script>
 </body>
 </html>
